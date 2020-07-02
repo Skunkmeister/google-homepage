@@ -1,2 +1,2 @@
 # google-homepage
-Baby steps. Absolute baby steps. We'll get there one day...
+The goal here is to learn by applying CSS and HTML basics that I've now learned.
