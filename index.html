@@ -9,20 +9,28 @@
 
 <body>
     <header>
-        <navbar>
             <a class="hElem" href="">About</a>
             <a class="hElem" href="">Store</a>
             <div class="right-just">
                 <a class="hElem" href="">Gmail</a>
                 <a class="hElem" href="">Images</a>
             </div>
-        </navbar>
     </header>
     <!--The main Chunk-->
-    <div style="margin: 200px 30px;">
-        <img src="googleLogo.png" style="display: block; width: 20%; margin: auto;">
-        <form>
-            <input type="text">
-        </form>
+    <div style="margin: 200px 100px;">
+        <img src="googleLogo.png" class="guGal">
+            
+        
+        <div class="searchBar">
+                <a class="inlineLinkIco" id="voiceSearch" href="" alt="Search Icon"><img src="grid.png"></a>
+                
+                <form>
+                    <input type="text" class="search" name="searchQuery" value="Search Here!">
+                    
+                    <input type="image" src="mic.png" class="submitButton" name="submit">
+                </form>
+        </div>
+        
+
     </div>
 </body>

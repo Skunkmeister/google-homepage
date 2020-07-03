@@ -1,4 +1,5 @@
 a.hElem {
+    display: inline;
     color: rgb(0, 0, 0);
     font-family: Helvetica, sans-serif;
     text-decoration: none;
@@ -14,10 +15,49 @@ header {
     margin: 20px;
 }
 
-.left-just {
-    display: inline;
-}
 .right-just {
-    display: inline;
     float: right;
+}
+
+.searchBar{
+    border-style: solid; 
+    border-width: 1px;
+    border-color: rgb(146, 146, 146);
+    border-radius: 30px;
+    height: 35px;
+    width: 400px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.searchBar:focus-within {
+    box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.507);
+}
+.guGal{
+    display: block; 
+    min-width: 30%; 
+    max-width: 70%; 
+    margin: auto;
+}
+
+.inlineLinkIco{
+    margin: 10px;
+    display: inline;
+    
+}
+
+.search{
+    display: inline;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 320px;
+    font-size: 20px;
+}
+
+.submitButton{
+    width: 20px;
 }
