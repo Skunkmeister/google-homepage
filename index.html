@@ -9,26 +9,30 @@
 
 <body>
     <header>
-            <a class="hElem" href="">About</a>
-            <a class="hElem" href="">Store</a>
-            <div class="right-just">
-                <a class="hElem" href="">Gmail</a>
-                <a class="hElem" href="">Images</a>
+            <div style="flex-shrink: 0;">
+                <a class="header-link about" href="">About</a>
+                <a class="header-link" href="">Store</a>
             </div>
+            <div style="flex-shrink: 0;">
+                <a class="header-link" href="">Gmail</a>
+                <a class="header-link" href="">Images</a>
+                <a href="" class="header-icon-link"><img class="header-icon-grid" src="grid.png"></a>
+                <a href="" class="header-icon-link"><img class="header-icon-profile" src="profPic.png"></a>
+            </div>
+                
+                
     </header>
     <!--The main Chunk-->
     <div style="margin: 200px 100px;">
-        <img src="googleLogo.png" class="guGal">
-            
-        
-        <div class="searchBar">
-                <a class="inlineLinkIco" id="voiceSearch" href="" alt="Search Icon"><img src="grid.png"></a>
-                
+        <img src="googleLogo.png" class="logo">
+        <div class="searchbar-container">
+            <div class="searchBar">      
                 <form>
-                    <input type="text" class="search" name="searchQuery" value="Search Here!">
-                    
-                    <input type="image" src="mic.png" class="submitButton" name="submit">
+                    <input type="image" src="searchIcon.png" class="submit-button" name="submit">    
+                    <input type="text" name="searchQuery" class="search">
                 </form>
+                <a class="voice-search" href="" alt="Search Icon"><img class="voice-search" src="mic.png"></a>
+            </div>
         </div>
         
 
