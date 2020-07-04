@@ -57,7 +57,7 @@ body {
     border-radius: 30px;
     height: 35px;
     width: 600px;
-    margin: 60px auto;
+    margin: 20px auto 20px auto;
     display: flex;
     align-items: center;
     padding: 5px 8px 5px 10px;
@@ -86,4 +86,31 @@ img.voice-search{
     width: 20px;
     height: 20px;
     margin-left: 10px;
+}
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.button-container{
+    display: flex;
+    margin: auto;
+
+}
+
+.dual-button{
+    margin: 0px 7px;
+    padding: 13px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 14px;
+}
+
+.dual-button:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(141, 141, 141);
+    box-shadow: 0px -1px 7px 0px rgb(173, 173, 173);
 }
